@@ -1,0 +1,233 @@
+header img {
+    width: 268px;
+    height: 33px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+    position: fixed;
+    top: 0;
+    width: 100px;
+    background-color: white;
+    
+    /*z-index: 1000;*/
+  }
+
+.navBar{
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+    
+    /*padding: 0 30px; */  
+}
+
+.navBar ul{
+    display: inline-block ;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 25px;
+}
+
+/*header style*/
+#header{
+    
+    color: #00b39b;
+    font-size: 3.29rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+
+
+ h1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+    color: rgb(0, 179, 155)  ;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    padding-top: 20px;
+  }
+
+/*himg logo before 2 paragraphs*/
+  .imgLogo img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /*Section One*/
+  .twoParagraphs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: white;
+     
+  }
+
+  .twoParagraphs p{
+    display: inline-block;
+    text-align: start;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .pBlock{
+    color:white;
+    background-color: rgb(0, 179, 155);
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .dBlock{
+    color:white;
+    background-color: blue;
+    padding: 30px;
+    border-radius: 10px;
+    
+  }
+
+  .cBlock{
+    color:white;
+    background-color: rgb(27, 5, 5);
+    padding: 30px;
+    border-radius: 10px;
+    
+  }
+
+  /*Section Two*/
+  .secTwo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+       }
+
+  .secTwo div{
+    display: inline-block;
+
+  }
+
+  select{
+    text-decoration: underline;
+
+  }
+
+  
+  .imgCluster{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+  }
+
+.imgCluster img{
+    width:5%
+}
+
+.imgCluster h1{
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+  .secThree div{
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+
+
+.secFour div{
+  background-color:cyan;
+  padding: 5px;
+  display: block;
+ 
+}
+
+.rhs div{
+  display:flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.lhs {
+  display:flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.lhs img{
+  display:flex;
+  justify-content: start;
+  align-items: end;
+}
+.txtBox {
+  background-color: white;
+  padding: 15px;
+  margin:10px;
+  border-width: 15px;
+}
+
+.txtBox p {
+  color:black;
+  background-color: white;
+  padding: 5px;
+}
+
+.secFive h3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: gray;
+}
+
+.secFive p {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: gray;
+}
+
+
+button{
+  display: flex;
+  color: white;
+  border-radius: 5px;
+  background-color: blue;
+  justify-content: end;
+  align-items: baseline;
+}
+
+.imgCluster2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgCluster2 img {
+     margin: 10px;
+}
+
+.secSix p {
+  display: flex;
+  align-items: center;
+  display: inline;
+  align-content: center;
+  justify-content: center;
+  
+ 
+}
+
+/*footer section*/
+  footer div {
+    display: flex;
+    color: grey;
+    justify-content: center;
+  }
